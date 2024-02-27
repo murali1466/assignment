@@ -104,7 +104,7 @@ input[type="radio"]:checked {
 .offer {
     background: #FF6B82;
     color: #fff;
-    padding: 1px;
+    padding: 1.2px;
     margin-left: 10px;
 }
 
@@ -114,7 +114,7 @@ input[type="radio"]:checked {
     line-height: 15px;
     letter-spacing: 0em;
     text-align: center;
-
+    padding: 1px;
 }
 
 .price h2 {
@@ -178,12 +178,19 @@ input[type="radio"]:checked {
 }
 
 .button-container .fa-plus {
+    font-size: 12px;
+    padding-bottom: 5.5px;
     color: #fff;
 }
 
 .button-container .add-cart {
     color: #fff;
     margin-left: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .add-button {
